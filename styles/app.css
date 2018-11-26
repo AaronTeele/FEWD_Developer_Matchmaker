@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* -----------------------------HEADER----------------------------- */
+header {
+    padding: .5% 0;
+    background-color: #000;
+    border-bottom: 5px solid #ffff00;
+    
+}
+
+.logo {
+    font-family: 'Merriweather', serif;
+    color: #ffff00;
+    text-align: left;
+}
+
+nav{
+    text-align: right;
+    font-size: 1.25em;
+}
+
+header a {
+    line-height: 50px;
+    color: #fff;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+
+.bolded {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+/* -----------------------------TAGLINE----------------------------- */
+
+.tagline {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em 3%;
+    font-family: 'Merriweather', serif;
+    background-color: #c6c6c6;
+}
+
+del {
+    color: #999;
+}
+
+ins {
+    text-decoration-color: #ffff00;
+}
+
+/* -----------------------------HERO----------------------------- */
+
+.hero {
+    padding: 3% 0;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/coworking.jpg);   
+}
+
+.inset {
+    padding: 4%;
+    background: rgba(255,255,255,.8);
+    
+}
+
+.inset h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.inset p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+button {
+
+    width: 90%;
+    padding: 12px;
+    margin-top: 10%;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    /* box-shadow: inset 0 0 5px rgba(0,0,0,.75); */
+}
+
+.hero button {
+    font-size: 1.5em;
+    margin-top: 5%;
+    background-color: #ffff00;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+}
+
+
+/* -----------------------------CALL TO ACTION----------------------------- */
+.call-to-action {
+    padding: 2% 0;
+}
+
+.subsection {
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.middle {
+    border: 1px solid #c6c6c6;
+    border-top: none;
+    border-bottom: none;
+}
+
+.cta h2 {
+    line-height: 1.8em;
+    font-family: 'Merriweather', serif;
+}
+
+
+/* -----------------------------FOOTER----------------------------- */
+footer {
+    color: #fff;
+    padding: 2.5% 0;
+    font-size: 1.3em;
+    background: #000;
+}
+
+/* -----------------------------Grid System----------------------------- */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: 8.3333%;
+    min-height: 100%;
+}
+
+.col-2 {
+    width: calc(2 * 8.3333%);
+}
+
+.col-3 {
+    width: calc(3 * 8.3333%);
+}
+
+.col-4 {
+    width: calc(4 * 8.3333%);
+}
+
+.col-5 {
+    width: calc(5 * 8.3333%);
+}
+
+.col-6 {
+    width: calc(6 * 8.3333%);
+}
+
+.col-7 {
+    width: calc(7 * 8.3333%);
+}
+
+.col-8 {
+    width: calc(8 * 8.3333%);
+}
+
+.col-9 {
+    width: calc(9 * 8.3333%);
+}
+
+.col-10 {
+    width: calc(10 * 8.3333%);
+}
+
+.col-11 {
+    width: calc(11 * 8.3333%);
+}
+
+.col-12 {
+    width: calc(12 * 8.3333%);
+}
